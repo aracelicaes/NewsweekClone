@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- this link must go below bootstrap linking-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
@@ -69,14 +69,14 @@
         </div>
     </div>
 
-    <div class="d-flex justify-content-between mx-lg-5">
+    <div class="d-flex justify-content-between mx-lg-5"> <!-- I'd recommend to use flex and flex properties in your own styling sheet -->
         <div>
             <h3 class="color-red">
                 Subscribe
             </h3>
-            <img class="position-relative" src="resources/donaldtrump.jpg">
+            <img class="position-relative" src="resources/donaldtrump.jpg"> <!-- wrap your images in a DIV so it's separate from the text. Apply the position float INSIDE this div to the img directly so that it doesn't mess up your text-->
 
-            <img class="position-absolute positionchange" src="resources/december-06-13-2019-cover.jpg">
+            <img class="position-absolute positionchange" src="resources/december-06-13-2019-cover.jpg"> <!-- All your imgs have to have an ALT-->
             In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
             <p>
                 All Access + Weekly Delivery.
